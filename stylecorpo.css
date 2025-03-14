@@ -21,8 +21,9 @@
 
 .produto img {
     width: 100%;
-    height: auto;
+   height: 125%;
     border-radius: 8px;
+
 }
 
 .produto h3 {
@@ -34,11 +35,6 @@
     font-size: 1em;
     margin-bottom: 15px;
 }
-
-.produto span {
-    font-size: 1.2em;
-    color: #27ae60;
-    font-weight: bold;}
 
  .preco 
     {

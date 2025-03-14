@@ -1,0 +1,39 @@
+
+
+
+.redes-sociais {
+    padding: 40px 0;
+}
+
+.redes-sociais h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fefdfd;
+}
+
+.social-link img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.social-links
+{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+
+

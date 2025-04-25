@@ -55,9 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Conteúdo do popup
         popup.innerHTML = `
-            <h3 style="margin-bottom: 10px; color:rgb(72, 0, 255); font-size: 18px;">Oferta Especial!</h3>
+            <h3 style="margin-bottom: 10px; color:#1fc9f3; font-size: 18px;">Oferta Especial!</h3>
             <p style="margin-bottom: 15px;">Ganhe 10% de desconto na sua primeira compra. Use o cupom: GURI10</p>
-            <button id="closePopup" style="background:rgb(72, 0, 255); color: #373851; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">Fechar</button>
+            <button id="closePopup" style="background:#1fc9f3; color: #373851; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">Fechar</button>
         `;
         
         // Adicionar ao corpo da página

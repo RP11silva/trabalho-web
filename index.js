@@ -6,21 +6,7 @@ window.onload = function() {
     alert('Bem-vindo à Guri Brigadeiro! Aproveite nossos deliciosos doces!');
 };
 document.addEventListener('DOMContentLoaded', function() {
-    // Efeito de hover nos itens do menu
-    const menuItems = document.querySelectorAll('nav ul li a');
-    
-    menuItems.forEach(item => {
-        item.addEventListener('mouseenter', function() {
-            this.style.color = rgb(72, 0, 255); // cor do header
-            this.style.transform = 'scale(1.1)';
-        });
-        
-        item.addEventListener('mouseleave', function() {
-            this.style.color = 'aliceblue';
-            this.style.transform = 'scale(1)';
-        });
-    });
-    
+  
     // Animação para a seção de texto
     const textElements = document.querySelectorAll('.texto p');
     
@@ -49,15 +35,15 @@ document.addEventListener('DOMContentLoaded', function() {
         popup.style.backgroundColor = '#373851';
         popup.style.padding = '20px';
         popup.style.borderRadius = '8px';
-        popup.style.boxShadow = '0 4px 15px rgba(0,0,0,0.5)';
+        popup.style.boxShadow = '0 4px 15px #ff69b4';
         popup.style.zIndex = '1000';
         popup.style.maxWidth = '300px';
         
         // Conteúdo do popup
         popup.innerHTML = `
-            <h3 style="margin-bottom: 10px; color:#1fc9f3; font-size: 18px;">Oferta Especial!</h3>
+            <h3 style="margin-bottom: 10px; color: #ff69b4; font-size: 18px;">Oferta Especial!</h3>
             <p style="margin-bottom: 15px;">Ganhe 10% de desconto na sua primeira compra. Use o cupom: GURI10</p>
-            <button id="closePopup" style="background:#1fc9f3; color: #373851; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">Fechar</button>
+            <button id="closePopup" style="background: #ff69b4; color:rgb(0, 0, 0); border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">Fechar</button>
         `;
         
         // Adicionar ao corpo da página
@@ -69,3 +55,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, 3000);
 });
+
+
